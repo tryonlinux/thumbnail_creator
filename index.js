@@ -27,6 +27,8 @@ const getAllFiles = async function(filepath){
 filepath = process.argv[2];
 getAllFiles(filepath).then(files =>{
     files.forEach(filename => {
+      if(!filename.includes("thumb.quickview.")){
         convertToThumbnail(filepath,filename)
+      }
     });
 })
