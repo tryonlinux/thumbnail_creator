@@ -1,0 +1,22 @@
+{
+  "name": "thumbnail_creator",
+  "version": "1.0.0",
+  "description": "Creates thumbnails for every image in a folder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tryonlinux/thumbnail_creator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tryonlinux/thumbnail_creator/issues"
+  },
+  "homepage": "https://github.com/tryonlinux/thumbnail_creator#readme",
+  "dependencies": {
+    "sharp": "^0.26.0"
+  }
+}
