@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/tryonlinux/thumbnail_creator#readme",
   "dependencies": {
-    "sharp": "^0.26.0"
+    "sharp": "^0.32.6"
   }
 }
